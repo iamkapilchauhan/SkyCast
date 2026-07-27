@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkyCast</title>
+    <link rel="icon" href="image.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+    <header>
+
+        <h1>🌤 SkyCast</h1>
+
+        <div class="search-box">
+
+            <input
+                    id="cityInput"
+                    type="text"
+                    placeholder="Search your city...">
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+    </header>
+
+    <section class="weather-card">
+
+        <div class="left-side">
+
+            <div class="weather-icon">
+                ☀️
+            </div>
+
+            <h1 id="temperature">
+                --°C
+            </h1>
+
+            <h3 id="condition">
+                Loading...
+            </h3>
+
+        </div>
+
+        <div class="right-side">
+
+            <h2 id="city">
+                City
+            </h2>
+
+            <p id="region">
+                Region
+            </p>
+
+            <p id="country">
+                Country
+            </p>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2 class="title">
+            7 Day Forecast
+        </h2>
+
+        <div id="forecastContainer" class="forecast-grid">
+
+        </div>
+
+    </section>
+
+    <section class="chart-card">
+
+        <h2>
+            Temperature Trend
+        </h2>
+
+        <canvas id="tempChart"></canvas>
+
+    </section>
+
+    <section class="recent-card">
+
+        <div class="recent-header">
+
+            <h2>
+                Recent Searches
+            </h2>
+
+            <button id="themeBtn">
+                🌙
+            </button>
+
+        </div>
+
+        <ul id="recentList">
+
+        </ul>
+
+    </section>
+
+</div>
+
+<div id="loader" class="loader"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
