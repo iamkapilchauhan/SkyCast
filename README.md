@@ -156,8 +156,8 @@ http://localhost:8080
 
 **Kapil Chauhan**
 
-🌐 GitHub: [github.com/your-username](https://github.com/iamkapilchauhan)<br>
-💼 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/iamkapilchauhan/)<br>
+🌐 GitHub: [github.com/iamkapilchauhan](https://github.com/iamkapilchauhan)<br>
+💼 LinkedIn: [linkedin.com/in/iamkapilchauhan](https://www.linkedin.com/in/iamkapilchauhan/)<br>
 
 
 ## 🙏 Acknowledgements
